@@ -1,6 +1,6 @@
 #
 #	This file is part of the OrangeFox Recovery Project
-# 	Copyright (C) 2019-2021 The OrangeFox Recovery Project
+# 	Copyright (C) 2019-2024 The OrangeFox Recovery Project
 #
 #	OrangeFox is free software: you can redistribute it and/or modify
 #	it under the terms of the GNU General Public License as published by
@@ -38,14 +38,13 @@ export OF_NO_MIUI_PATCH_WARNING=1
 export OF_OTA_RES_DECRYPT=1
 export OF_NO_SAMSUNG_SPECIAL=1
 export FOX_ENABLE_APP_MANAGER=1
-export OF_MAINTAINER="Shekhawat2"
-export OF_MAINTAINER_AVATAR="device/xiaomi/whyred/shekhawat2.png"
+export OF_MAINTAINER="Aqua"
 
 # Quick Backup Defaults
 export OF_QUICK_BACKUP_LIST="/boot;/data;/system;/system_root;/vendor;"
 
 # Update Magisk
-export FOX_USE_SPECIFIC_MAGISK_ZIP="device/xiaomi/whyred/prebuilt/Magisk-v24.3.zip"
+export FOX_USE_SPECIFIC_MAGISK_ZIP="device/xiaomi/whyred/prebuilt/Magisk-v26.4.zip"
 
 # Extra Binaries
 export FOX_USE_BASH_SHELL=1
